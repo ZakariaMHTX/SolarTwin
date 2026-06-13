@@ -1,0 +1,30 @@
+# ---- secrets (NEVER commit) ----
+.env
+.env.*
+*.key
+
+# ---- python env / caches ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- OS ----
+.DS_Store
+
+# ---- node modules ----
+node_modules/
+
+# ---- generated data & restricted-dataset derivatives (do NOT redistribute) ----
+# The Enerparc dataset is restricted; nothing derived from it is committed.
+outputs/
+
+# ---- presentation / submission material (kept locally, not in the code repo) ----
+video_submission/
+pitch/
+
+# ---- heavy media ----
+*.mp4
+*.webm
+*.aiff
+*.mp3
